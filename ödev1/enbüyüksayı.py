@@ -3,9 +3,16 @@
 a=int(input("a:"))
 b=int(input("b:"))
 c=int(input("c:"))
-if(a>=b and a>=c):
-    print("En büyük sayı a dır")
-elif(b>=a and b>=c):
-    print("En büyük sayı b dir")
-elif(c>=a and c>=b):
-    print("En büyük sayı c dir")
+if(a==b==c):
+    print("Sayılar tekrar ediyor")
+else:
+    if(a>b and a>c):
+        print("En büyük sayı a dır")
+    elif(b>a and b>c):
+        print("En büyük sayı b dir")
+
+    
+    else:
+        print("En büyük sayı c dir")
+  
+
