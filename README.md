@@ -1,6 +1,6 @@
 # Tobeto-Test-Examples
 Python Questions and Solutions
-Python soruları ve çözümleri.
+
 
 Ödev-1 Sorular:
 
